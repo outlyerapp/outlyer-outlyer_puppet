@@ -1,0 +1,49 @@
+---
+agent:
+    # account Agent key (default: None, this is a required parameter)
+    key: <%= @agent_key %>
+
+    # enable debug logging (default: false)
+    debug: <%= @debug %>
+
+    # override the Agent hostname (default: auto-detected)
+    hostname: <%= @name %>
+
+    # set host labels (default: None)
+    # labels:
+    # labels:
+    #    env: prod
+    #    region: US
+
+    # choose which labels are going to be added to metric dimensions
+    # metric_labels:
+    #   - region
+
+    # location for the agent to store its files.
+    # The agent needs to have write access to this folder (default: /etc/outlyer)
+    home_dir: <%= @home_dir %>
+
+    # location for check config files (default: /etc/outlyer/conf.d)
+    config_dir: <%= @config_dir %>
+
+    # location for check plugin files (default: /etc/outlyer/plugins)
+    plugin_dir: <%= @plugin_dir %>
+
+    # location for Agent server connection.
+    # This should not need to be changed (default: agent.outlyer.com)
+    # server: 'agent.outlyer.com'
+    server: <%= @server %>
+
+    # solo mode disables central configuration
+    # solo: false
+    solo: <%= @solo %>
+
+    # enable the docker check (default: true)
+    docker: <%= @docker %>
+
+    # for the docker check, set where it will find the host files needed
+    # to read containers performance data. By default, it assumes that the
+    # agent is running inside a docker container and the host files are
+    # mounted under '/host'. If you are running the agent directly on a host
+    # change that to '/'. Please see documentation for more info
+    # rootfs: '/host'
