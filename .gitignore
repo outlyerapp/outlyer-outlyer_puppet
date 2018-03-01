@@ -1,0 +1,11 @@
+vagrant
+.vagrant
+.idea
+webroot
+.DS_Store
+.tmp/
+modules/
+.idea/
+.kitchen/
+.kitchen.local.yml
+.librarian
