@@ -4,9 +4,9 @@
 "author": "Outlyer.com",
 "summary": "Installs and configures the outlyer-agent",
 "license": "All rights reserved",
-"source": "https://github.com/outlyerapp/outlyer-puppet",
-"project_page": "http://github.com/outlyerapp/outlyer-puppet",
-"issues_url": "https://github.com/outlyerapp/outlyer-puppet/issues",
+"source": "https://github.com/outlyerapp/outlyer-outlyer_puppet",
+"project_page": "http://github.com/outlyerapp/outlyer-outlyer_puppet",
+"issues_url": "https://github.com/outlyerapp/outlyer-outlyer_puppet/issues",
 "operatingsystem_support": [
 {
 "operatingsystem": "RedHat",
